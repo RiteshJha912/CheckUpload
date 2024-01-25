@@ -81,6 +81,7 @@ label {
 /* Media Query for Phones */
 @media only screen and (max-width: 600px) {
     .container {
+        padding-top: 100px;
         width: 100%;
         padding: 20px;
     }
