@@ -86,7 +86,10 @@ label {
         flex-direction: column; /* Reverse the order for better mobile experience */
     }
     .left-half {
-        border-right: none;
+        border: none;
+    }
+    .right-half {
+        border: 1px solid #ccc;
     }
 
     .left-half,
@@ -100,4 +103,3 @@ label {
         max-width: none;
     }
 }
-
