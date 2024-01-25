@@ -83,6 +83,7 @@ label {
     .container {
         width: 100%;
         padding: 20px;
+        margin-top: 200px;
         flex-direction: column; /* Reverse the order for better mobile experience */
     }
     .left-half {
