@@ -50,7 +50,7 @@ body {
 .image-container img {
     display: block;
     max-width: 100%;
-    max-height: 400px;
+    max-height: 100%; /* Set max-height to 100% for full visibility on smaller screens */
     margin: auto;
 }
 
@@ -83,7 +83,10 @@ label {
     .container {
         width: 100%;
         padding: 20px;
-        flex-direction: column-reverse; /* Reverse the order for better mobile experience */
+        flex-direction: column; /* Reverse the order for better mobile experience */
+    }
+    .left-half {
+        border-right: none;
     }
 
     .left-half,
@@ -97,3 +100,4 @@ label {
         max-width: none;
     }
 }
+
