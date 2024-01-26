@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #f5f8ff;
+    background-color: #e1dcdc;
     margin: 0;
     overflow-x: hidden;
 }
@@ -24,6 +24,7 @@ body {
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.05);
     border-radius: 7px;
     overflow: hidden;
+    margin-top: 300px;
 }
 
 .left-half {
@@ -67,7 +68,7 @@ input[type="file"] {
 label {
     display: block;
     position: relative;
-    background-color: #622618;
+    background-color: #60483c;
     color: #ffffff;
     font-size: 18px;
     text-align: center;
@@ -88,6 +89,7 @@ label {
     }
     .left-half {
         border: none;
+        margin-top: 1000px;
     }
     .right-half {
         border: 1px solid #ccc;
@@ -104,3 +106,6 @@ label {
         max-width: none;
     }
 }
+
+
+
